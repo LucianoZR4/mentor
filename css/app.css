@@ -33,11 +33,6 @@ img{
 
 /* pagina */
 
-.cartas{
-    margin: 25rem auto;
-    padding: 4rem;
-}
-
 @media (min-width: 768px) { 
     .cartas__grid{
         display: grid;
@@ -53,16 +48,11 @@ img{
     border-top-right-radius: 1rem;
 }
 
-@media (min-width: 768px) { 
-    .join{
-        
-    }
-}
 
 .join__heading{
     color:var(--primario) ;
-    margin: 0;
-    font-size: 3rem;
+    margin: 0 ;
+    font-size:3rem;
 }
 
 .join__garantia{
@@ -83,7 +73,7 @@ img{
 .join__texto{
     color: var(--gris);
     max-width: 65rem;
-    margin-top: .5rem;
+    margin-top: 1rem;
 }
 /* subscription */
 
@@ -164,5 +154,4 @@ img{
 .nosotros__texto{
     margin: 1rem 0 0 0 ;
     font-size:1.617rem;
-    max-width: rem;
 }
