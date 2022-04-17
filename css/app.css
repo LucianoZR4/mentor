@@ -5,6 +5,8 @@
     --gris:#acb0b9;
     --negro:#000;
     --blanco:#fff;
+
+    --fuentePrincipal:'Karla', sans-serif;;
 }
 
 html{
@@ -19,6 +21,12 @@ body{
     font-size: 2rem;
     line-height: 1.4;
     background-color: #e6eff6;
+    font-family: var(--fuentePrincipal);
+    display: flex;
+    min-height: 100vh;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
